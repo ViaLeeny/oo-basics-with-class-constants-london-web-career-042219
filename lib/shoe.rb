@@ -13,7 +13,4 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
- def self.brand
-  BRAND << @brand
- end
 end
