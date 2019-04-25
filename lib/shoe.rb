@@ -13,7 +13,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
- def slef.brand
+ def self.brand
   BRAND << @brand
  end
 end
