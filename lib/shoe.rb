@@ -8,7 +8,6 @@ class Shoe
     @brand = brand
     unless BRANDS.include? brand
       BRAND << @brand
-    else 
     end
   end
 
