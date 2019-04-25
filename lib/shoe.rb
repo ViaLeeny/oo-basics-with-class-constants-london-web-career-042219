@@ -6,8 +6,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    unless Shoe::BRANDS.include? brand
-      BRAND << @brand
+    unless BRANDS.include? brand
+      BRAND << brand
     end
   end
 
